@@ -22,16 +22,6 @@ export default function HeroSection() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-vastara-red-600/20 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-24 pb-16 text-center">
-        {/* Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-vastara-red-600/10 border border-vastara-red-600/20 mb-8">
-          <span className="relative flex h-2 w-2">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-vastara-red-400 opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-vastara-red-500"></span>
-          </span>
-          <span className="text-sm text-vastara-red-500 font-medium">
-            Powered by AI
-          </span>
-        </div>
 
         {/* Headline */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 tracking-tight">
