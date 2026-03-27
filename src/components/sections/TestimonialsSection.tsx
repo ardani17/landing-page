@@ -53,13 +53,14 @@ export default function TestimonialsSection() {
             Testimoni
           </span>
           <h2 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-bold text-neutral-900 dark:text-white">
-            Apa Kata{" "}
+            Cerita Nyata{" "}
             <span className="text-vastara-red-600 dark:text-vastara-red-500">
-              Member Kami
+              dari Member VASTARA
             </span>
           </h2>
           <p className="mt-4 text-lg text-neutral-600 dark:text-neutral-400 max-w-2xl mx-auto">
-            Dengarkan pengalaman mereka yang sudah merasakan manfaat VASTARA.
+            Ini pengalaman langsung dari member yang sudah pakai tools VASTARA
+            dalam aktivitas analisa harian mereka.
           </p>
         </div>
 
