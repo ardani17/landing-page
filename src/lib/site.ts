@@ -6,12 +6,12 @@ function normalizeUrl(url: string): string {
 
 export const siteConfig = {
   name: "VASTARA",
-  title: "VASTARA - Screening Saham Cerdas, Passive Income Pasti",
+  title: "VASTARA - Analisa Saham Cerdas, Passive Income Pasti",
   description:
-    "Platform screening saham Indonesia dengan Agent Basic dan Agent Pro untuk analisa AI agent, data fundamental, serta peluang fee active income dan passive income.",
+    "Platform analisa saham Indonesia dengan Agent Basic dan Agent Pro untuk analisa AI agent, data fundamental, serta peluang fee active income dan passive income.",
   keywords: [
     "saham indonesia",
-    "screening saham",
+    "analisa saham",
     "analisis saham",
     "agent saham",
     "analisa ai agent",

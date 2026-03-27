@@ -10,7 +10,7 @@ import {
 const features = [
   {
     icon: Search,
-    title: "Screener Saham",
+    title: "Tools Analisa Saham",
     description:
       "Filter saham berdasarkan kriteria teknikal dan fundamental sesuai strategi trading Anda.",
     color: "text-blue-500",

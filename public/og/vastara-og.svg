@@ -29,7 +29,7 @@
     VASTARA
   </text>
   <text x="240" y="265" fill="#FCA5A5" font-size="34" font-family="Inter, Arial, sans-serif" font-weight="600">
-    Screening Saham Cerdas
+    Analisa Saham Cerdas
   </text>
   <text x="240" y="310" fill="#D1D5DB" font-size="32" font-family="Inter, Arial, sans-serif" font-weight="500">
     Agent Basic & Agent Pro untuk Analisis Saham Indonesia
@@ -37,7 +37,7 @@
 
   <g transform="translate(240 380)" fill="#E5E7EB" font-family="Inter, Arial, sans-serif">
     <rect x="0" y="-30" width="250" height="56" rx="14" fill="#DC2626" />
-    <text x="24" y="7" font-size="26" font-weight="700" fill="#FFFFFF">Tools Screening</text>
+    <text x="24" y="7" font-size="26" font-weight="700" fill="#FFFFFF">Tools Analisa</text>
 
     <rect x="270" y="-30" width="220" height="56" rx="14" fill="#111827" stroke="#374151" />
     <text x="292" y="7" font-size="26" font-weight="700">AI Agent Analisa</text>

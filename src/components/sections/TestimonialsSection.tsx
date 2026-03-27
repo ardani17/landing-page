@@ -5,7 +5,7 @@ const testimonials = [
     name: "Budi Santoso",
     role: "Retail Investor",
     content:
-      "Screener VASTARA sangat membantu saya menemukan saham dengan potensi bagus. AI Agent-nya juga memberikan analisis yang mudah dipahami.",
+      "Tools analisa VASTARA sangat membantu saya menemukan saham dengan potensi bagus. AI Agent-nya juga memberikan analisis yang mudah dipahami.",
     rating: 5,
     avatar: "BS",
   },
@@ -13,7 +13,7 @@ const testimonials = [
     name: "Siti Rahayu",
     role: "Swing Trader",
     content:
-      "Tools screening dan analisa AI agent-nya sangat membantu saya menyaring saham lebih cepat. Workflow trading jadi jauh lebih rapi.",
+      "Tools analisa dan analisa AI agent-nya sangat membantu saya menyaring saham lebih cepat. Workflow trading jadi jauh lebih rapi.",
     rating: 5,
     avatar: "SR",
   },

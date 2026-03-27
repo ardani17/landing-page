@@ -7,9 +7,9 @@ const plans = [
     regularPrice: "Rp 3.000.000",
     referralPrice: "Rp 1.000.000",
     description:
-      "Paket untuk kebutuhan harian dengan tools screening dan analisa AI agent.",
+      "Paket untuk kebutuhan harian dengan tools analisa dan analisa AI agent.",
     features: [
-      "Tools Screening Saham Lengkap",
+      "Tools Analisa Saham Lengkap",
       "Analisa AI Agent Basic",
       "Data Fundamental 900+ Saham",
       "Alert Harga & Watchlist",
@@ -27,7 +27,7 @@ const plans = [
     description:
       "Paket lengkap untuk analisa AI agent lebih dalam dan kebutuhan profesional.",
     features: [
-      "Tools Screening Saham Lengkap",
+      "Tools Analisa Saham Lengkap",
       "Analisa AI Agent Pro Mendalam",
       "Dashboard Analytics Lanjutan",
       "Skoring saham lebih detail",

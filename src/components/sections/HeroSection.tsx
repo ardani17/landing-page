@@ -25,7 +25,7 @@ export default function HeroSection() {
 
         {/* Headline */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-neutral-900 dark:text-white mb-6 tracking-tight">
-          Screening Saham Indonesia
+          Analisa Saham Indonesia
           <span className="block text-vastara-red-500 mt-2">
             + Passive Income
           </span>
@@ -33,13 +33,13 @@ export default function HeroSection() {
 
         {/* Tagline */}
         <p className="text-lg sm:text-xl md:text-2xl text-neutral-700 dark:text-neutral-400 max-w-3xl mx-auto mb-8">
-          Screening Saham Cerdas, Passive Income Pasti
+          Analisa Saham Cerdas, Passive Income Pasti
         </p>
 
         {/* Description */}
         <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-500 max-w-2xl mx-auto mb-10">
-          Platform screening saham Indonesia paling lengkap dengan 2 agent
-          analis saham: Agent Basic dan Agent Pro. Nikmati tools screening,
+          Platform analisa saham Indonesia paling lengkap dengan 2 agent
+          analis saham: Agent Basic dan Agent Pro. Nikmati tools analisa,
           analisa AI agent, fee active income, dan fee passive income dari
           sistem referral berjenjang.
         </p>

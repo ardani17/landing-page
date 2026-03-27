@@ -74,7 +74,7 @@ export default function Footer() {
               <h3 className="text-xl font-bold text-vastara-red-600">VASTARA</h3>
             </div>
             <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
-              Screening Saham Cerdas, Passive Income Pasti
+              Analisa Saham Cerdas, Passive Income Pasti
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
@@ -177,4 +177,3 @@ export default function Footer() {
     </footer>
   );
 }
-

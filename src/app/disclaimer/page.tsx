@@ -31,7 +31,7 @@ export default function DisclaimerPage() {
 
         <article className="space-y-6 text-neutral-700 dark:text-neutral-300 leading-relaxed">
           <p>
-            Informasi screening dan analisis yang tersedia pada VASTARA tidak
+            Informasi analisa dan analisis yang tersedia pada VASTARA tidak
             dimaksudkan sebagai saran keuangan atau ajakan membeli/menjual
             efek.
           </p>

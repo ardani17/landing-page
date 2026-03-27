@@ -7,17 +7,17 @@ export const faqItems = [
   {
     question: "Apakah VASTARA cocok untuk pemula?",
     answer:
-      "Ya. VASTARA dirancang agar pemula bisa screening saham lebih mudah dengan panduan data teknikal, fundamental, dan insight agent secara bertahap.",
+      "Ya. VASTARA dirancang agar pemula bisa analisa saham lebih mudah dengan panduan data teknikal, fundamental, dan insight agent secara bertahap.",
   },
   {
     question: "Data saham apa saja yang tersedia di VASTARA?",
     answer:
-      "VASTARA menyediakan tools screening, data fundamental, watchlist, alert harga, dan indikator penting untuk saham Indonesia yang terdaftar di IDX.",
+      "VASTARA menyediakan tools analisa, data fundamental, watchlist, alert harga, dan indikator penting untuk saham Indonesia yang terdaftar di IDX.",
   },
   {
     question: "Bagaimana cara mulai berlangganan?",
     answer:
-      "Anda cukup daftar akun, pilih paket Agent Basic atau Agent Pro, lalu mulai gunakan screener dan agent analisis sesuai kebutuhan strategi investasi Anda.",
+      "Anda cukup daftar akun, pilih paket Agent Basic atau Agent Pro, lalu mulai gunakan tools analisa dan agent analisis sesuai kebutuhan strategi investasi Anda.",
   },
   {
     question: "Apakah saya bisa upgrade dari Basic ke Pro?",

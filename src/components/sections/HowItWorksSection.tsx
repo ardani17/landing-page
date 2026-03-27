@@ -10,16 +10,16 @@ const steps = [
   {
     step: "02",
     icon: Search,
-    title: "Screening Saham",
+    title: "Analisa Saham",
     description:
-      "Gunakan screener dan pilih Agent Basic atau Agent Pro untuk menemukan saham dengan potensi terbaik.",
+      "Gunakan tools analisa dan pilih Agent Basic atau Agent Pro untuk menemukan saham dengan potensi terbaik.",
   },
   {
     step: "03",
     icon: TrendingUp,
     title: "Analisis & Trading",
     description:
-      "Gunakan tools screening, analisa AI agent, dan data fundamental untuk keputusan trading yang lebih terukur.",
+      "Gunakan tools analisa, analisa AI agent, dan data fundamental untuk keputusan trading yang lebih terukur.",
   },
   {
     step: "04",
