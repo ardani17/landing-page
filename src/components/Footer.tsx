@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   Mail,
   MessageCircle,
@@ -7,6 +8,7 @@ import {
   Linkedin,
   Youtube,
 } from "lucide-react";
+import { siteConfig } from "@/lib/site";
 
 const footerLinks = {
   platform: [
@@ -15,22 +17,37 @@ const footerLinks = {
     { name: "FAQ", href: "#faq" },
   ],
   company: [
-    { name: "Tentang Kami", href: "#about" },
+    { name: "Tentang Kami", href: "#home" },
     { name: "Contact", href: "#contact" },
-    { name: "Blog", href: "#" },
   ],
   legal: [
-    { name: "Privacy Policy", href: "#" },
-    { name: "Terms of Service", href: "#" },
-    { name: "Disclaimer", href: "#" },
+    { name: "Privacy Policy", href: "/privacy-policy" },
+    { name: "Terms of Service", href: "/terms-of-service" },
+    { name: "Disclaimer", href: "/disclaimer" },
   ],
 };
 
 const socialLinks = [
-  { name: "Instagram", icon: Instagram, href: "#" },
-  { name: "Twitter", icon: Twitter, href: "#" },
-  { name: "LinkedIn", icon: Linkedin, href: "#" },
-  { name: "YouTube", icon: Youtube, href: "#" },
+  {
+    name: "Instagram",
+    icon: Instagram,
+    href: process.env.NEXT_PUBLIC_INSTAGRAM_URL || siteConfig.url,
+  },
+  {
+    name: "Twitter",
+    icon: Twitter,
+    href: process.env.NEXT_PUBLIC_TWITTER_URL || siteConfig.url,
+  },
+  {
+    name: "LinkedIn",
+    icon: Linkedin,
+    href: process.env.NEXT_PUBLIC_LINKEDIN_URL || siteConfig.url,
+  },
+  {
+    name: "YouTube",
+    icon: Youtube,
+    href: process.env.NEXT_PUBLIC_YOUTUBE_URL || siteConfig.url,
+  },
 ];
 
 export default function Footer() {
@@ -38,11 +55,24 @@ export default function Footer() {
     <footer className="bg-neutral-50 dark:bg-neutral-900 border-t border-neutral-200 dark:border-neutral-800">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Brand */}
           <div className="col-span-1 md:col-span-1">
-            <h3 className="text-xl font-bold text-vastara-red-600 mb-4">
-              VASTARA
-            </h3>
+            <div className="mb-4 flex items-center gap-3">
+              <div className="relative h-10 w-10">
+                <Image
+                  src="/assets/vastara-icon-logo.png"
+                  alt="VASTARA Icon"
+                  fill
+                  className="object-contain block dark:hidden"
+                />
+                <Image
+                  src="/assets/vastara-icon-logo-white.png"
+                  alt="VASTARA Icon"
+                  fill
+                  className="object-contain hidden dark:block"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-vastara-red-600">VASTARA</h3>
+            </div>
             <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
               Screening Saham Cerdas, Passive Income Pasti
             </p>
@@ -51,6 +81,8 @@ export default function Footer() {
                 <a
                   key={social.name}
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-neutral-400 hover:text-vastara-red-600 dark:hover:text-vastara-red-500 transition-colors"
                   aria-label={social.name}
                 >
@@ -60,7 +92,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Platform */}
           <div>
             <h4 className="text-sm font-semibold text-neutral-900 dark:text-white mb-4">
               Platform
@@ -79,7 +110,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Company */}
           <div>
             <h4 className="text-sm font-semibold text-neutral-900 dark:text-white mb-4">
               Perusahaan
@@ -98,7 +128,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="text-sm font-semibold text-neutral-900 dark:text-white mb-4">
               Hubungi Kami
@@ -126,7 +155,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom */}
         <div className="mt-8 pt-8 border-t border-neutral-200 dark:border-neutral-800">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-neutral-500 dark:text-neutral-500">
@@ -149,3 +177,4 @@ export default function Footer() {
     </footer>
   );
 }
+

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="60%" stop-color="#0A0A0A" />
+      <stop offset="100%" stop-color="#1F2937" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444" />
+      <stop offset="100%" stop-color="#7F1D1D" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="980" cy="130" r="220" fill="#DC2626" opacity="0.14" />
+  <circle cx="160" cy="540" r="180" fill="#991B1B" opacity="0.18" />
+
+  <g transform="translate(100 120)">
+    <rect width="112" height="112" rx="24" fill="#0A0A0A" stroke="#DC2626" stroke-width="2.5" />
+    <path
+      d="M22 92L46 24h14l24 68h-14l-17-48-17 48H22z"
+      fill="url(#accent)"
+      stroke="#FCA5A5"
+      stroke-width="1.5"
+    />
+  </g>
+
+  <text x="240" y="205" fill="#F9FAFB" font-size="66" font-family="Inter, Arial, sans-serif" font-weight="800">
+    VASTARA
+  </text>
+  <text x="240" y="265" fill="#FCA5A5" font-size="34" font-family="Inter, Arial, sans-serif" font-weight="600">
+    Screening Saham Cerdas
+  </text>
+  <text x="240" y="310" fill="#D1D5DB" font-size="32" font-family="Inter, Arial, sans-serif" font-weight="500">
+    Agent Basic & Agent Pro untuk Analisis Saham Indonesia
+  </text>
+
+  <g transform="translate(240 380)" fill="#E5E7EB" font-family="Inter, Arial, sans-serif">
+    <rect x="0" y="-30" width="250" height="56" rx="14" fill="#DC2626" />
+    <text x="24" y="7" font-size="26" font-weight="700" fill="#FFFFFF">Tools Screening</text>
+
+    <rect x="270" y="-30" width="220" height="56" rx="14" fill="#111827" stroke="#374151" />
+    <text x="292" y="7" font-size="26" font-weight="700">AI Agent Analisa</text>
+
+    <rect x="510" y="-30" width="250" height="56" rx="14" fill="#111827" stroke="#374151" />
+    <text x="532" y="7" font-size="26" font-weight="700">Rp 1jt - 10jt/bulan</text>
+  </g>
+</svg>

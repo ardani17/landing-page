@@ -13,7 +13,7 @@ const testimonials = [
     name: "Siti Rahayu",
     role: "Swing Trader",
     content:
-      "Sinyal buy/sell-nya cukup akurat. Saya sudah profit konsisten sejak menggunakan VASTARA. Recommended banget!",
+      "Tools screening dan analisa AI agent-nya sangat membantu saya menyaring saham lebih cepat. Workflow trading jadi jauh lebih rapi.",
     rating: 5,
     avatar: "SR",
   },

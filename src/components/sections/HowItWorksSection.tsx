@@ -12,21 +12,21 @@ const steps = [
     icon: Search,
     title: "Screening Saham",
     description:
-      "Gunakan screener dan AI Agent untuk menemukan saham dengan potensi terbaik.",
+      "Gunakan screener dan pilih Agent Basic atau Agent Pro untuk menemukan saham dengan potensi terbaik.",
   },
   {
     step: "03",
     icon: TrendingUp,
     title: "Analisis & Trading",
     description:
-      "Dapatkan sinyal, analisis fundamental, dan pantau portofolio Anda secara real-time.",
+      "Gunakan tools screening, analisa AI agent, dan data fundamental untuk keputusan trading yang lebih terukur.",
   },
   {
     step: "04",
     icon: Wallet,
-    title: "Hasilkan Passive Income",
+    title: "Fee Active & Passive Income",
     description:
-      "Ajak teman bergabung dan dapatkan komisi hingga 5 level kedalaman.",
+      "Aktifkan referral agen untuk mendapatkan fee active income dan passive income hingga 5 level kedalaman.",
   },
 ];
 

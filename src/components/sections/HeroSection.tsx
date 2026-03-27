@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Play } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export default function HeroSection() {
   return (
@@ -8,7 +8,7 @@ export default function HeroSection() {
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-neutral-950 via-neutral-900 to-neutral-950 dark:from-neutral-950 dark:via-neutral-900 dark:to-neutral-950" />
+      <div className="absolute inset-0 bg-gradient-to-br from-vastara-red-100 via-white to-white dark:from-neutral-950 dark:via-neutral-900 dark:to-neutral-950" />
 
       {/* Grid Pattern */}
       <div
@@ -24,23 +24,24 @@ export default function HeroSection() {
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-24 pb-16 text-center">
 
         {/* Headline */}
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 tracking-tight">
-          Investasi + Passive Income
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-neutral-900 dark:text-white mb-6 tracking-tight">
+          Screening Saham Indonesia
           <span className="block text-vastara-red-500 mt-2">
-            dari Network
+            + Passive Income
           </span>
         </h1>
 
         {/* Tagline */}
-        <p className="text-lg sm:text-xl md:text-2xl text-neutral-400 max-w-3xl mx-auto mb-8">
+        <p className="text-lg sm:text-xl md:text-2xl text-neutral-700 dark:text-neutral-400 max-w-3xl mx-auto mb-8">
           Screening Saham Cerdas, Passive Income Pasti
         </p>
 
         {/* Description */}
-        <p className="text-base sm:text-lg text-neutral-500 max-w-2xl mx-auto mb-10">
-          Platform screening saham Indonesia paling lengkap dengan AI Agent
-          Analis. Dapatkan sinyal buy/sell akurat dan kesempatan menghasilkan
-          passive income dari sistem referral berjenjang.
+        <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-500 max-w-2xl mx-auto mb-10">
+          Platform screening saham Indonesia paling lengkap dengan 2 agent
+          analis saham: Agent Basic dan Agent Pro. Nikmati tools screening,
+          analisa AI agent, fee active income, dan fee passive income dari
+          sistem referral berjenjang.
         </p>
 
         {/* CTA Buttons */}
@@ -55,34 +56,27 @@ export default function HeroSection() {
               className="group-hover:translate-x-1 transition-transform"
             />
           </Link>
-          <Link
-            href="https://saham.vastara.id"
-            className="group inline-flex items-center gap-2 px-8 py-4 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-medium rounded-xl transition-all duration-300"
-          >
-            <Play size={20} className="text-vastara-red-500" />
-            Lihat Demo
-          </Link>
         </div>
 
         {/* Stats Preview */}
         <div className="mt-16 grid grid-cols-3 gap-8 max-w-2xl mx-auto">
           <div className="text-center">
-            <div className="text-3xl sm:text-4xl font-bold text-white mb-1">
+            <div className="text-3xl sm:text-4xl font-bold text-neutral-900 dark:text-white mb-1">
               900+
             </div>
-            <div className="text-sm text-neutral-500">Saham IDX</div>
+            <div className="text-sm text-neutral-600 dark:text-neutral-500">Saham IDX</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl sm:text-4xl font-bold text-white mb-1">
-              AI
+            <div className="text-3xl sm:text-4xl font-bold text-neutral-900 dark:text-white mb-1">
+              2
             </div>
-            <div className="text-sm text-neutral-500">Agent Analis</div>
+            <div className="text-sm text-neutral-600 dark:text-neutral-500">Tipe Agent Analis</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl sm:text-4xl font-bold text-white mb-1">
+            <div className="text-3xl sm:text-4xl font-bold text-neutral-900 dark:text-white mb-1">
               100%
             </div>
-            <div className="text-sm text-neutral-500">All-in-One</div>
+            <div className="text-sm text-neutral-600 dark:text-neutral-500">All-in-One</div>
           </div>
         </div>
       </div>

@@ -26,14 +26,15 @@ export default function CTASection() {
 
         {/* Headline */}
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
-          Screening Saham Cerdas,
-          <span className="block mt-2">Passive Income Pasti</span>
+          Tools Screening & AI Agent,
+          <span className="block mt-2">Active + Passive Income</span>
         </h2>
 
         {/* Description */}
         <p className="text-lg sm:text-xl text-white/80 max-w-2xl mx-auto mb-10">
-          Bergabung sekarang dan dapatkan akses ke semua fitur premium. Plus,
-          kesempatan menghasilkan passive income dari sistem referral berjenjang.
+          Bergabung sekarang dan dapatkan akses tools screening, analisa AI
+          agent, serta peluang fee active income dan passive income dari sistem
+          referral berjenjang.
         </p>
 
         {/* CTA Buttons */}

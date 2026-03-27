@@ -18,17 +18,17 @@ const features = [
   },
   {
     icon: TrendingUp,
-    title: "Sinyal Buy/Sell",
+    title: "Fee Active & Passive Income",
     description:
-      "Dapatkan rekomendasi buy/sell berdasarkan analisis teknikal dan AI yang akurat.",
+      "Dapatkan peluang fee active income dan passive income melalui sistem referral agen yang terstruktur.",
     color: "text-green-500",
     bgColor: "bg-green-50 dark:bg-green-950/50",
   },
   {
     icon: Bot,
-    title: "AI Agent Analis",
+    title: "Agent Basic & Pro",
     description:
-      "Asisten AI yang menganalisis saham dan memberikan insight real-time untuk keputusan investasi.",
+      "Dua agent untuk menganalisis saham: Agent Basic untuk kebutuhan harian, Agent Pro untuk analisis lebih mendalam.",
     color: "text-vastara-red-500",
     bgColor: "bg-vastara-red-50 dark:bg-vastara-red-950/50",
   },
